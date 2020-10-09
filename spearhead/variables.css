@@ -78,15 +78,15 @@
 	--latest-posts--title-font-size: var(--global--font-size-lg);
 
 	--list--font-family: var(--global--font-secondary);
-<<<<<<< HEAD
+
 	/* Sticky Posts */
 	--sticky-posts--color-background: #F9F9F9;
 	--sticky-posts--entry-title-font-size: 24px;
 	--sticky-posts--entry-content-font-size: 20px;
-=======
 
 	--form--border-color: var(--global--color-secondary);
->>>>>>> removed stuff that goes on a different PR, updated block pattern
+	--form--border-width: 1px;
+
 }
 
 @media ( prefers-color-scheme: dark ) {
