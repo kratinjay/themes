@@ -320,3 +320,21 @@ Tags: one-column, flexible-header, accessibility-ready, custom-colors, custom-me
 	font-size: var(--global--font-size-xs);
 	text-transform: uppercase;
 }
+
+.wp-block-categories ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.wp-block-categories .cat-item {
+	padding: 5px 0;
+}
+
+.wp-block-categories a {
+	font-size: var(--heading--font-size-h3);
+	color: var(--entry-header--color);
+}
+
+.wp-block-categories a:hover {
+	color: var(--global--color-primary);
+}
