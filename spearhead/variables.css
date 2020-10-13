@@ -88,6 +88,11 @@
 	--form--border-color: var(--global--color-secondary);
 	--form--border-width: 1px;
 
+	/* Buttons */
+	--form--spacing-unit: 6px;
+	--button--padding-vertical: var(--form--spacing-unit);
+	--button--padding-horizontal: var(--form--spacing-unit);
+
 }
 
 @media ( prefers-color-scheme: dark ) {
