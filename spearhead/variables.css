@@ -84,6 +84,7 @@
 	--sticky-posts--entry-title-font-size: 24px;
 	--sticky-posts--entry-content-font-size: 20px;
 
+	/* Forms */
 	--form--border-color: var(--global--color-secondary);
 	--form--border-width: 1px;
 

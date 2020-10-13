@@ -1,9 +1,10 @@
-.wp-block-categories {
+ul.wp-block-categories,
+.wp-block-categories ul{
+    list-style-type: none;
+    padding: 0;
+}
 
-    ul {
-        list-style-type: none;
-        padding: 0;
-    }
+.wp-block-categories {
 
     .cat-item {
         padding: 5px 0;

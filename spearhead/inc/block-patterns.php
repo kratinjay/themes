@@ -43,8 +43,9 @@ if ( ! function_exists( 'spearhead_register_block_patterns' ) ) :
 					'categories' => array( 'spearhead' ),
 					'content'    => '<!-- wp:search {"label":"Search","showLabel":false,"placeholder":"Search...","buttonText":"Search","buttonPosition":"button-inside","buttonUseIcon":true} /--><!-- wp:spacer {"height":50} -->
 					<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
-					<!-- /wp:spacer --><!-- wp:heading {"level":3,"style":{"color":{"text":"#cccccc"}}} -->
-					<h3 class="has-text-color" style="color:#346073">' . __( 'Categories', 'seedlet' ) . '</h3><!-- /wp:heading --><!-- wp:categories /-->',
+					<!-- /wp:spacer --><!-- wp:paragraph {"fontSize":"medium"} -->
+					<p class="has-medium-font-size">' . __( 'Categories', 'seedlet' ) . '</p>
+					<!-- /wp:paragraph --><!-- wp:categories /-->',
 				)
 			);
 		}
